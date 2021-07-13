@@ -176,7 +176,6 @@ hr{
    /*-------Media Queries------ */
    /* mobile device */
 
-<<<<<<< HEAD
    /* ----------- iPhone X ----------- */
 
 /* Portrait and Landscape */
@@ -197,9 +196,6 @@ and (-webkit-min-device-pixel-ratio: 3) {
    /*--------------
     footer section
     ---------------*/
-=======
-   
->>>>>>> 259199d614f7306bbd968350ecca94d5d1837120
 .footer-section{
     width: 924px;
     height: 140px;
