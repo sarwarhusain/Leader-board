@@ -173,32 +173,27 @@ hr{
   .fa-clock{
      color: #FF4A60;
    }
-   /* -------Media Queries------ */
-   /* Mobile Device */
+   /*-------Media Queries------ */
+   /* mobile device */
 
-   /* Portrait and Landscape */
+   /* ----------- iPhone X ----------- */
 
-   @media only screen and(max-width:688px){
-    .container{
-      width: 100%;
-    } 
-    .players, .blogs, .courses{
-       grid-template-columns: repeat(1, 1fr);
-    }
-    .player, .blog{
-      flex-direction: column;
-    }
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+  .container{
+    width: 100%;  
   }
-  /* *tablet device */
-  /* @media only screen and(min-width:688px) and (max-width:992px){
-    .container{
-      width:100%;
-    }
-    .players, .courses{
-      grid-template-columns: repeat(2, 1fr);
-
-    } */
-  /*--------------
+  .main-menu,.players, .blogs, .courses{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .player, .blog{
+    flex-direction: column;
+  }
+}
+   /*--------------
     footer section
     ---------------*/
 .footer-section{
@@ -213,12 +208,12 @@ hr{
   font-size: 20px;
   border-radius: 10px;
   text-align: center;
-  margin: 10px 10px 20px;
+  margin: 10px 20px;
   font-weight: 700;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .idea span{
-  color: red;
+  color: yellowgreen;
   font-weight: 900;
 }
 .idea p{
